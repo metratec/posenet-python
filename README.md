@@ -14,6 +14,13 @@ A conda environment with these packages should suffice: `conda install tensorflo
 
 Note: If you want to use the webcam demo, a pip version of opencv (`pip install python-opencv`) is required instead of the conda version. Anaconda's default opencv does not include ffpmeg/VideoCapture support.
 
+#### Using pip 8.1.1 and Python 3.5.2 on Ubuntu 16.04
+1. clone repository
+2. cd into root directory of repository
+3. ```$ python3 -m venv venv```
+4. ```$ source venv/bin/activate```
+5. ```$ pip install -r requirements.txt```
+
 ### Usage
 
 There are three demo apps in the root that utilize the PoseNet model. They are very basic and could definitely be improved.
@@ -52,4 +59,7 @@ The Python conversion code that started me on my way was adapted from the CoreML
 * OpenGL rendering/drawing
 * Comment interfaces, tensor dimensions, etc
 * Implement batch inference for image_demo
+
+### TODO (soon, definitely)
+* save converted models somewhere (gdrive?)
 
