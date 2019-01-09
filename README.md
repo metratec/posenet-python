@@ -21,6 +21,9 @@ Note: If you want to use the webcam demo, a pip version of opencv (`pip install 
 4. ```$ source venv/bin/activate```
 5. ```$ pip install -r requirements.txt```
 
+##### Using Intel RealSense camera (for 3D estimation)
+You need librealsense installed on your machine and additionally install python bindings via ```pip install pyrealsense2```
+
 ### Usage
 
 There are three demo apps in the root that utilize the PoseNet model. They are very basic and could definitely be improved.
